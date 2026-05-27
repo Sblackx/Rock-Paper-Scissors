@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 60vh;
+    background-color: lightslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#key {
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+button{
+    border-radius: 50%;
+    font-size: 7rem;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+div{
+    font-size: 2rem;
+}
+#rock{
+    background-color: tomato;
+}
+#paper{
+    background-color: lightgreen;
+}
+#scissors{
+    background-color: lightblue;
+}
+
